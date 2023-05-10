@@ -6,7 +6,7 @@ import banking_img from "../assets/virtual-banking.jpeg";
 import image_gen from "../assets/AI_img_gen.png";
 import chat_img from "../assets/AI_chat.png";
 import summarize_img from "../assets/AI_Summarise.png";
-import Dashboard from "../assets/dashboard.png";
+import Dashboard from "../assets/Dashboard.png";
 import social_img from "../assets/social_img.png";
 import youtube_img from "../assets/Youtube_img.png";
 import Three_js_img from "../assets/Three_js.png";
