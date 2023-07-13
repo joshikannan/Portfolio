@@ -3,8 +3,10 @@ import Skills_svg from "../assets/skills.svg";
 const Skills = () => {
   return (
     <>
-      <div className="skill-text">Technology I Know</div>
-      <section className="skills" id="about">
+      <div id="about" className="skill-text">
+        Technology I Know
+      </div>
+      <section className="skills">
         <div className="skillsList">
           <ul>
             <span>Front-end:</span>
