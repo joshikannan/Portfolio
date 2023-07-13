@@ -2,7 +2,6 @@ import React from "react";
 import Resume from "../assets/Joshikannan-Resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-
 const main = () => {
   return (
     <>
@@ -12,23 +11,27 @@ const main = () => {
         </a>
         <div className="main">
           <ul className="navbar">
-            <div className="navIcon">
-              <li>
-                <a href="#about">ABOUT</a>
+            <div className="navIcon" id="navIcon">
+              <li onClick="hideItems()">
+                <a className="link" href="#about">
+                  Skills
+                </a>
               </li>
-              <li>
-                <a href="#work">WORK</a>{" "}
+              <li onClick="hideItems()">
+                <a className="link" href="#work">
+                  Projects
+                </a>{" "}
               </li>
-              <li>
-                <a blank="true" href={Resume}>
+              <li onClick="hideItems()">
+                <a className="link" href={Resume} target="_blank">
                   RESUME
                 </a>
               </li>
             </div>
-            <div className="menuIcon" id="menu-icon">
-              <FontAwesomeIcon id="barIcon" icon={faBars} />
-            </div>
           </ul>
+        </div>
+        <div className="menuIcon" id="menu-icon">
+          <FontAwesomeIcon id="barIcon" icon={faBars} />
         </div>
       </header>
     </>
