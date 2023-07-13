@@ -16,15 +16,16 @@ import deepam_img from "../assets/deepam_img.png";
 const AllProjects = () => {
   return (
     <>
-      <div className="skip">
-        Skip to the good part,
-        <p>here’s my work ↓</p>
+      <div className="skip" id="work">
+        Skip to the good part ,<p>" here’s my work ↓"</p>
       </div>
       {/* Freelance project */}
       <h1 className="p-color">Freelance Project</h1>
       <section className="deepam">
         <div className="deepamImg">
-          <img src={deepam_img} />{" "}
+          <a href="https://deepamengineering.in/" target="_blank">
+            <img src={deepam_img} />{" "}
+          </a>
         </div>
         <div className="deepamText">
           <h2 className="deepamhead">Deepam Enginnering</h2>
@@ -34,21 +35,16 @@ const AllProjects = () => {
             resulting in a significant impact on the client's business and
             enhanced visibility of their work.
           </p>
-          <a href="https://deepamengineering.in/">
+          <a href="https://deepamengineering.in/" target="_blank">
             <button className="deepambtn">Take a look</button>
           </a>
         </div>
       </section>
-
       {/* Open Ai */}
       <h1 className="p-color">OPEN AI Projects</h1>
       <div className="project-align">
         <div className="projects">
-          <a
-            id="work"
-            href="https://reliable-narwhal-96d0bc.netlify.app"
-            blank="true"
-          >
+          <a href="https://reliable-narwhal-96d0bc.netlify.app" target="_blank">
             <div className="project-info">
               <span className="p-head">AI_Image_Generator</span>
               <div className="p-l">
@@ -67,7 +63,7 @@ const AllProjects = () => {
           <a
             id="work"
             href="https://candid-kataifi-3ecea2.netlify.app"
-            blank="true"
+            target="_blank"
           >
             <div className="project-info">
               <span className="p-head">AI_Chat_GPt</span>
@@ -85,7 +81,7 @@ const AllProjects = () => {
           <a
             id="work"
             href=" https://gleeful-salamander-0fc302.netlify.app"
-            blank="true"
+            target="_blank"
           >
             <div className="project-info">
               <span className="p-head">AI_Summarize</span>
@@ -100,14 +96,13 @@ const AllProjects = () => {
           </a>
         </div>
       </div>
-
       <h1 className="projects-gap p-color">React Projects</h1>
       <div className="project-align">
         <div className="projects">
           <a
             id="work"
             href="https://joshikannan.github.io/Admin_Dashboard_React_syncfusion/"
-            blank="true"
+            target="_blank"
           >
             <div className="project-info">
               <span className="p-head">Admin Dashboard</span>
@@ -123,7 +118,7 @@ const AllProjects = () => {
           </a>
         </div>
         <div className="projects">
-          <a id="work" href="https://hr9zww-3000.csb.app/" blank="true">
+          <a id="work" href="https://hr9zww-3000.csb.app/" target="_blank">
             <div className="project-info">
               <span className="p-head">Social Media</span>
               <div className="p-l">
@@ -137,7 +132,7 @@ const AllProjects = () => {
           </a>
         </div>
         <div className="projects">
-          <a id="work" href="https://h8jw29-3000.csb.app/" blank="true">
+          <a id="work" href="https://h8jw29-3000.csb.app/" target="_blank">
             <div className="project-info">
               <span className="p-head">Youtube Clone</span>
               <div className="p-l">
@@ -151,7 +146,7 @@ const AllProjects = () => {
           </a>
         </div>
         <div className="projects">
-          <a id="work" blank="true" href="https://e8zn98-5173.csb.app/">
+          <a id="work" target="_blank" href="https://e8zn98-5173.csb.app/">
             <div className="project-info">
               <span className="p-head">Portfolio on Three JS</span>
               <div className="p-l">
@@ -165,7 +160,7 @@ const AllProjects = () => {
           </a>
         </div>
         <div className="projects">
-          <a id="work" blank="true" href="https://q1h5sn-3000.csb.app/">
+          <a id="work" target="_blank" href="https://q1h5sn-3000.csb.app/">
             <div className="project-info">
               <span className="p-head">Keeper - Notes Taking</span>
               <div className="p-l">
@@ -179,7 +174,11 @@ const AllProjects = () => {
           </a>
         </div>
         <div className="projects">
-          <a id="work" blank="true" href="https://netflix.joshikannan.repl.co/">
+          <a
+            id="work"
+            target="_blank"
+            href="https://netflix.joshikannan.repl.co/"
+          >
             <div className="project-info">
               <span className="p-head">Netflix Clone</span>
               <div className="p-l">
@@ -193,14 +192,13 @@ const AllProjects = () => {
           </a>
         </div>
       </div>
-
       <h1 className="projects-gap p-color">HTML & CSS Projects</h1>
       <div className="project-align">
         <div className="projects">
           <a
             id="work"
             href="https://joshikannan.github.io/Restaurant-Html-Css/"
-            blank="true"
+            target="_blank"
           >
             <div className="project-info">
               <span className="p-head">Restraunt Website</span>
@@ -218,7 +216,7 @@ const AllProjects = () => {
           <a
             id="work"
             href="https://joshikannan.github.io/Virtual-Banking-Bootstrap/"
-            blank="true"
+            target="_blank"
           >
             <div className="project-info">
               <span className="p-head">Virtual Banking</span>
@@ -236,7 +234,7 @@ const AllProjects = () => {
           <a
             id="work"
             href="https://joshikannan.github.io/Digital-Html-Css/"
-            blank="true"
+            target="_blank"
           >
             <div className="project-info">
               <span className="p-head">Digital Website</span>
@@ -253,7 +251,7 @@ const AllProjects = () => {
         <div className="projects">
           <a
             id="work"
-            blank="true"
+            target="_blank"
             href="https://joshikannan.github.io/college-html-css/"
           >
             <div className="project-info">
