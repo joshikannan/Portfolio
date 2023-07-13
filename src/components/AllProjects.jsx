@@ -24,7 +24,7 @@ const AllProjects = () => {
       <section className="deepam">
         <div className="deepamImg">
           <a href="https://deepamengineering.in/" target="_blank">
-            <img src={deepam_img} />{" "}
+            <img class="deepam-img" src={deepam_img} />{" "}
           </a>
         </div>
         <div className="deepamText">
