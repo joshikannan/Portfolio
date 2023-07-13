@@ -24,7 +24,7 @@ const main = () => {
               </li>
               <li onClick="hideItems()">
                 <a className="link" href={Resume} target="_blank">
-                  RESUME
+                  Resume
                 </a>
               </li>
             </div>
