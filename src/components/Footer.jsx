@@ -1,6 +1,5 @@
 import React from "react";
-// import Resume from "../assets/Joshikannan-Resume.pdf";
-import Resume from "../assets/latest.pdf";
+import Resume from "../assets/resumejk.pdf";
 
 const Footer = () => {
   return (

@@ -1,7 +1,6 @@
 import React from "react";
-// import Resume from "../assets/Joshikannan-Resume.pdf";
 import Profile from "../assets/profile.svg";
-import Resume from "../assets/latest.pdf";
+import Resume from "../assets/resumejk.pdf";
 
 const Hero = () => {
   return (
