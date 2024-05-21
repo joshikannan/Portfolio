@@ -11,7 +11,7 @@ const Hero = () => {
         </div>
         <div className="home-text">
           <h2 className="profile-text">
-            Hey, I'm Joshikannan,A Developer by self-learning. I like to think
+            Hey, I'm Joshikannan, A Developer by self-learning. I like to think
             of myself as a Full-Stack developer who can develop the product from
             scratch to make people life better.
           </h2>
