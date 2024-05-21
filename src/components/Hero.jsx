@@ -1,6 +1,7 @@
 import React from "react";
-import Resume from "../assets/Joshikannan-Resume.pdf";
+// import Resume from "../assets/Joshikannan-Resume.pdf";
 import Profile from "../assets/profile.svg";
+import Resume from "../assets/latest.pdf";
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
             <a
               className="c-l"
               blank="true"
-              href="mailto:joshikannan99@gmail.com"
+              href="mailto:joshikannan9977@gmail.com"
             >
               Email
             </a>{" "}
@@ -40,7 +41,7 @@ const Hero = () => {
               Github
             </a>{" "}
             /
-            <a className="c-l" blank="true" href={Resume}>
+            <a className="c-l" target="_blank" href={Resume}>
               Resume
             </a>
           </div>

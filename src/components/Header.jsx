@@ -1,7 +1,9 @@
 import React from "react";
-import Resume from "../assets/Joshikannan-Resume.pdf";
+// import Resume from "../assets/Joshikannan-Resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import Resume from "../assets/latest.pdf";
+
 const main = () => {
   return (
     <>
