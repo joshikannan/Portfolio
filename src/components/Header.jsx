@@ -9,7 +9,7 @@ const main = () => {
     <>
       <header>
         <a href="#home" className="logo">
-          JK
+          NJK
         </a>
         <div className="main">
           <ul className="navbar">
