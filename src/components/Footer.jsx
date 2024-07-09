@@ -7,14 +7,14 @@ const Footer = () => {
       <footer>
         <div>© 2023 joshikannan All Rights Reserved</div>
         <div className="contact-links">
-          <a
+          {/* <a
             className="c-l"
             target="_blank"
             href="mailto:joshikannan9977@gmail.com"
           >
             Email
           </a>{" "}
-          /
+          | */}
           <a
             className="c-l"
             target="_blank"
@@ -22,7 +22,7 @@ const Footer = () => {
           >
             Linked In
           </a>{" "}
-          /
+          |
           <a
             className="c-l"
             target="_blank"
@@ -30,7 +30,7 @@ const Footer = () => {
           >
             Github
           </a>{" "}
-          /
+          |
           <a className="c-l" target="_blank" href={Resume}>
             Resume
           </a>

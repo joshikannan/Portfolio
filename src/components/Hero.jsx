@@ -15,23 +15,20 @@ const Hero = () => {
             of myself as a Full-Stack developer who can develop the product from
             scratch to make people life better.
           </h2>
+
           <div className="contact-links">
-            <a
-              className="c-l"
-              target="_blank"
-              href="mailto:joshikannan9977@gmail.com"
-            >
+            {/* <a className="c-l" href="mailto:joshikannan9977@gmail.com">
               Email
             </a>
-            |
+            | */}
             <a
               className="c-l"
               blank="true"
               target="_blank"
               href="https://www.linkedin.com/in/joshikannan-neelanarayanan/"
             >
-              Linked In
-            </a>{" "}
+              LinkedIn
+            </a>
             |
             <a
               className="c-l"
