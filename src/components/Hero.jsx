@@ -18,28 +18,30 @@ const Hero = () => {
           <div className="contact-links">
             <a
               className="c-l"
-              blank="true"
+              target="_blank"
               href="mailto:joshikannan9977@gmail.com"
             >
               Email
-            </a>{" "}
-            /
+            </a>
+            |
             <a
               className="c-l"
               blank="true"
-              href="https://www.linkedin.com/in/joshi-kanan-1366b724a/"
+              target="_blank"
+              href="https://www.linkedin.com/in/joshikannan-neelanarayanan/"
             >
               Linked In
             </a>{" "}
-            /
+            |
             <a
               className="c-l"
               blank="true"
+              target="_blank"
               href="https://github.com/joshikannan"
             >
               Github
             </a>{" "}
-            /
+            |
             <a className="c-l" target="_blank" href={Resume}>
               Resume
             </a>

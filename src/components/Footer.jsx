@@ -18,7 +18,7 @@ const Footer = () => {
           <a
             className="c-l"
             target="_blank"
-            href="https://www.linkedin.com/in/joshi-kanan-1366b724a/"
+            href="https://www.linkedin.com/in/joshikannan-neelanarayanan/"
           >
             Linked In
           </a>{" "}
