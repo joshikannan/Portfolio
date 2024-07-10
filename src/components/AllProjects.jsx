@@ -43,7 +43,7 @@ const AllProjects = () => {
       {/* Open Ai */}
       <h1 className="p-color">OPEN AI Projects</h1>
       <div className="project-align">
-        <div className="projects">
+        {/* <div className="projects">
           <a href="https://reliable-narwhal-96d0bc.netlify.app" target="_blank">
             <div className="project-info">
               <span className="p-head">AI_Image_Generator</span>
@@ -76,7 +76,8 @@ const AllProjects = () => {
               <img src={chat_img} />
             </div>
           </a>
-        </div>
+        </div> */}
+
         <div className="projects">
           <a
             id="work"
@@ -91,7 +92,26 @@ const AllProjects = () => {
               </div>
             </div>
             <div className="project-img">
-              <img src={summarize_img} />
+              <img style={{}} src={summarize_img} />
+            </div>
+          </a>
+        </div>
+        <div className="projects">
+          <a
+            id="work"
+            target="_blank"
+            // href="https://netflix.joshikannan.repl.co/"
+            href="https://joshikannan.github.io/Netflix_demo/"
+          >
+            <div className="project-info">
+              <span className="p-head">Netflix Clone</span>
+              <div className="p-l">
+                <span>HTML</span> | <span>CSS</span> | <span>JavaScript</span> |{" "}
+                <span>API</span>
+              </div>
+            </div>
+            <div className="project-img">
+              <img src={Netflix_Img} />
             </div>
           </a>
         </div>
@@ -159,7 +179,7 @@ const AllProjects = () => {
             </div>
           </a>
         </div>
-        <div className="projects">
+        {/* <div className="projects">
           <a id="work" target="_blank" href="https://q1h5sn-3000.csb.app/">
             <div className="project-info">
               <span className="p-head">Keeper - Notes Taking</span>
@@ -172,25 +192,7 @@ const AllProjects = () => {
               <img src={keeper_img} />
             </div>
           </a>
-        </div>
-        <div className="projects">
-          <a
-            id="work"
-            target="_blank"
-            href="https://netflix.joshikannan.repl.co/"
-          >
-            <div className="project-info">
-              <span className="p-head">Netflix Clone</span>
-              <div className="p-l">
-                <span>HTML</span> | <span>CSS</span> | <span>JavaScript</span> |{" "}
-                <span>API</span>
-              </div>
-            </div>
-            <div className="project-img">
-              <img src={Netflix_Img} />
-            </div>
-          </a>
-        </div>
+        </div> */}
       </div>
       <h1 className="projects-gap p-color">HTML & CSS Projects</h1>
       <div className="project-align">
