@@ -15,25 +15,25 @@ const Footer = () => {
             Email
           </a>{" "}
           | */}
-          {/* <a
+          <a
             className="c-l"
             target="_blank"
             href="https://www.linkedin.com/in/joshikannan-neelanarayanan/"
           >
             Linked In
-          </a>{" "} */}
-          {/* |
+          </a>{" "}
+          |
           <a
             className="c-l"
             target="_blank"
             href="https://github.com/joshikannan"
           >
             Github
-          </a>{" "} */}
-          {/* |
+          </a>{" "}
+          |
           <a className="c-l" target="_blank" href={Resume}>
             Resume
-          </a> */}
+          </a>
         </div>
       </footer>
     </>
