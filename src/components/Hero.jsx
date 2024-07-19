@@ -17,11 +17,11 @@ const Hero = () => {
             make people life better.
           </h2>
 
-          <div className="contact-links">
-            {/* <a className="c-l" href="mailto:joshikannan9977@gmail.com">
+          {/* <div className="contact-links">
+            <a className="c-l" href="mailto:joshikannan9977@gmail.com">
               Email
             </a>
-            | */}
+            |
             <a
               className="c-l"
               blank="true"
@@ -43,7 +43,7 @@ const Hero = () => {
             <a className="c-l" target="_blank" href={Resume}>
               Resume
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

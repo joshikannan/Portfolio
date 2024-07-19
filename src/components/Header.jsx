@@ -24,11 +24,11 @@ const main = () => {
                   Projects
                 </a>{" "}
               </li>
-              <li onClick="hideItems()">
+              {/* <li onClick="hideItems()">
                 <a className="link" href={Resume} target="_blank">
                   Resume
                 </a>
-              </li>
+              </li> */}
             </div>
           </ul>
         </div>
