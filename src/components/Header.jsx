@@ -2,7 +2,6 @@ import React, { useState } from "react";
 // import Resume from "../assets/Joshikannan-Resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import Resume from "../assets/resumejk.pdf";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import Button from "@mui/material/Button";
@@ -44,16 +43,17 @@ const main = () => {
         </IconButton>
       </Box>
       <List sx={{ mt: -4 }}>
-        {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#about">
+            <ListItemText primary="Skills" />
+          </ListItemButton>
+        </ListItem>
+
+        <ListItem disablePadding>
+          <ListItemButton component="a" href="#work">
+            <ListItemText primary="Projects" />
+          </ListItemButton>
+        </ListItem>
       </List>
     </Box>
   );

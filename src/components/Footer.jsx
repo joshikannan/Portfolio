@@ -1,11 +1,10 @@
 import React from "react";
-import Resume from "../assets/resumejk.pdf";
+import Resume from "../assets/Joshikannan_Full-stack_Resume.pdf";
 
 const Footer = () => {
   return (
     <>
       <footer>
-        <div>© 2024 joshikannan All Rights Reserved</div>
         <div className="contact-links">
           {/* <a
             className="c-l"
@@ -18,7 +17,7 @@ const Footer = () => {
           <a
             className="c-l"
             target="_blank"
-            href="https://www.linkedin.com/in/joshikannan-neelanarayanan/"
+            href="https://www.linkedin.com/in/joshi-kannan/"
           >
             Linked In
           </a>{" "}
@@ -34,6 +33,9 @@ const Footer = () => {
           <a className="c-l" target="_blank" href={Resume}>
             Resume
           </a>
+        </div>
+        <div style={{ color: "lightgray" }}>
+          © 2025 joshikannan All Rights Reserved
         </div>
       </footer>
     </>

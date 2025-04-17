@@ -13,6 +13,9 @@ import Three_js_img from "../assets/Three_js.png";
 import keeper_img from "../assets/keeper_img.png";
 import Netflix_Img from "../assets/Netflix_Img.png";
 import deepam_img from "../assets/deepam_img.png";
+import { Stack, Box, Typography, Button, Grid } from "@mui/material";
+import nearleport from "../assets/nearleport.png";
+
 const AllProjects = () => {
   return (
     <>
@@ -20,25 +23,178 @@ const AllProjects = () => {
         Skip to the good part ,<p>" here’s my work ↓"</p>
       </div>
       {/* Freelance project */}
-      <h1 className="p-color">Freelance Project</h1>
+
+      <h1 className="p-color">Live Products</h1>
+
       <section className="deepam">
-        <div className="deepamImg">
-          <a href="https://deepamengineering.in/" target="_blank">
-            <img class="deepam-img" src={deepam_img} />{" "}
-          </a>
-        </div>
-        <div className="deepamText">
-          <h2 className="deepamhead">Deepam Enginnering</h2>
-          <p className="profile-text">
-            Achieved a 500% increase in client revenue by designing and
-            developing a new website and improving the user experience,
-            resulting in a significant impact on the client's business and
-            enhanced visibility of their work.
-          </p>
-          <a href="https://deepamengineering.in/" target="_blank">
-            <button className="deepambtn">Take a look</button>
-          </a>
-        </div>
+        <Stack
+          sx={{
+            flexDirection: {
+              xs: "column", // mobile
+              md: "row", // medium screens and up
+            },
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: 4,
+            padding: "20px",
+            borderRadius: "20px",
+            backgroundColor: "#d2d2d23d",
+          }}
+        >
+          {/* Image Section */}
+          <Box
+            component="a"
+            href="https://foil-single-ea6.notion.site/My-Works-63cf148340fe4c0eb70206e9ccb57c60"
+            target="_blank"
+            rel="noopener"
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: {
+                xs: "100%",
+                md: "40%",
+              },
+            }}
+          >
+            <Box
+              component="img"
+              src={nearleport}
+              alt="Deepam Engineering"
+              sx={{
+                maxWidth: "100%",
+                borderRadius: 2,
+                boxShadow: 3,
+              }}
+            />
+          </Box>
+
+          {/* Text Section */}
+          <Box
+            sx={{
+              textAlign: {
+                xs: "center",
+                md: "left",
+              },
+              width: {
+                xs: "100%",
+                md: "50%",
+              },
+            }}
+          >
+            <Typography variant="h4" sx={{ mb: 2 }}>
+              Nearle Technology
+            </Typography>
+            <Typography variant="body1" sx={{ mb: 3 }}>
+              At Nearle Technology, I designed and developed multiple
+              business-critical web applications including a Smart Saloon App,
+              an Order Delivery System with real-time tracking, and a Deals &
+              Discounts platform. These solutions streamlined operations,
+              improved customer engagement, and enhanced revenue generation for
+              businesses by modernizing user experiences and backend workflows.
+            </Typography>
+            <Button
+              className="p-color"
+              variant="contained"
+              href="https://foil-single-ea6.notion.site/My-Works-63cf148340fe4c0eb70206e9ccb57c60"
+              target="_blank"
+              sx={{
+                backgroundColor: "#db6f5a ",
+                "&:hover": {
+                  backgroundColor: "#db6f5c",
+                },
+              }}
+            >
+              Take a look
+            </Button>
+          </Box>
+        </Stack>
+      </section>
+      <h1 className="p-color">Freelance project</h1>
+
+      <section className="deepam">
+        <Stack
+          sx={{
+            flexDirection: {
+              xs: "column", // mobile
+              md: "row", // medium screens and up
+            },
+            alignItems: "center",
+            justifyContent: "space-between",
+
+            gap: 4,
+            p: 2,
+            padding: "20px",
+            borderRadius: "20px",
+            backgroundColor: "#d2d2d23d",
+          }}
+        >
+          {/* Image Section */}
+          <Box
+            component="a"
+            href="https://deepamengineering.in/"
+            target="_blank"
+            rel="noopener"
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: {
+                xs: "100%",
+                md: "40%",
+              },
+            }}
+          >
+            <Box
+              component="img"
+              src={deepam_img}
+              alt="Deepam Engineering"
+              sx={{
+                maxWidth: "100%",
+                borderRadius: 2,
+                boxShadow: 3,
+              }}
+            />
+          </Box>
+
+          {/* Text Section */}
+          <Box
+            sx={{
+              textAlign: {
+                xs: "center",
+                md: "left",
+              },
+              width: {
+                xs: "100%",
+                md: "50%",
+              },
+            }}
+          >
+            <Typography variant="h4" sx={{ mb: 2 }}>
+              Deepam Engineering
+            </Typography>
+            <Typography variant="body1" sx={{ mb: 3 }}>
+              Designed and developed a modern, responsive website for Deepam
+              Engineering, significantly enhancing user experience and digital
+              presence, leading to increased client engagement and improved
+              business visibility.
+            </Typography>
+            <Button
+              className="p-color"
+              variant="contained"
+              href="https://deepamengineering.in/"
+              target="_blank"
+              sx={{
+                backgroundColor: "#db6f5a ",
+                "&:hover": {
+                  backgroundColor: "#db6f5c",
+                },
+              }}
+            >
+              Take a look
+            </Button>
+          </Box>
+        </Stack>
       </section>
       {/* Open Ai */}
       <h1 className="p-color">OPEN AI Projects</h1>
@@ -138,7 +294,12 @@ const AllProjects = () => {
           </a>
         </div>
         <div className="projects">
-          <a id="work" href="https://hr9zww-3000.csb.app/" target="_blank">
+          {/* <a id="work" href="https://hr9zww-3000.csb.app/" target="_blank"> */}
+          <a
+            id="work"
+            href="https://react-socialmedis.netlify.app/"
+            target="_blank"
+          >
             <div className="project-info">
               <span className="p-head">Social Media</span>
               <div className="p-l">
@@ -152,7 +313,11 @@ const AllProjects = () => {
           </a>
         </div>
         <div className="projects">
-          <a id="work" href="https://h8jw29-3000.csb.app/" target="_blank">
+          <a
+            id="work"
+            href="https://youtube-cloneeeeee.netlify.app/"
+            target="_blank"
+          >
             <div className="project-info">
               <span className="p-head">Youtube Clone</span>
               <div className="p-l">

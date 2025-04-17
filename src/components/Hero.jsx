@@ -1,6 +1,6 @@
 import React from "react";
 import Profile from "../assets/profile.svg";
-import Resume from "../assets/resumejk.pdf";
+import Resume from "../assets/Joshikannan_Full-stack_Resume.pdf";
 
 const Hero = () => {
   return (
@@ -26,7 +26,7 @@ const Hero = () => {
               className="c-l"
               blank="true"
               target="_blank"
-              href="https://www.linkedin.com/in/joshikannan-neelanarayanan/"
+              href="https://www.linkedin.com/in/joshi-kannan/"
             >
               LinkedIn
             </a>
